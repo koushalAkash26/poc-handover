@@ -1,0 +1,73 @@
+<nav class="navbar navbar-expand-lg text-info bg-info">
+    <div class="container-fluid">
+      <a class="navbar-brand" routerLink="/login">CV Gameday</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <!-- <li class="nav-item">
+            <a class="nav-link" routerLink="/home" routerLinkActive="active">Home</a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link"routerLink="/login" routerLinkActive="active">login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/register" routerLinkActive="active">Register</a>
+          </li>
+        </ul>
+        <
+      </div>
+    </div>
+  </nav>
+  <div id="prompt" style="display:none;" class="alert alert-success alert-dismissible fade show">
+
+    <strong id="message">Success!</strong>
+
+    <button type="button" class="btn-close"  id="close"></button>
+
+  </div>
+  <div class="section mt-5 h-120">
+    <div class="d-flex justify-content-center h-120 pt-5">
+        <div class="user_card">
+            <div class="d-flex justify-content-center">
+                <div class="brand_logo_container">
+                    <img src="data:image/png;base64,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" class="brand_logo" alt="Logo">
+                </div>
+            </div>
+            <div class="d-flex justify-content-center form_container">
+                <form #form="ngForm" (ngSubmit)="verify()">
+                    <h3 class="form-title text-center">LOGIN</h3>
+                    <div class="input-group mb-3">
+                        <div class="input-group-append">
+                            <span class="input-group-text"><i class="fas fa-user"></i></span>
+                        </div>
+                        <input type="text" name="username" class="form-control input_user" [(ngModel)]="loginRequest.username" placeholder="username">
+                    </div>
+                    <div class="input-group mb-2">
+                        <div class="input-group-append">
+                            <span class="input-group-text"><i class="fas fa-key"></i></span>
+                        </div>
+                        <input type="password" name="password" class="form-control input_pass" [(ngModel)]="loginRequest.password" placeholder="password">
+                    </div>
+                    <!--verify whether rember password iis needed-->
+                    <div class="form-group">
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="customControlInline">
+                            <label class="custom-control-label" for="customControlInline">Remember Password</label>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center mt-3 login_container">
+                      <button type="submit" name="button" class="btn login_btn">Login</button>
+                  </div>
+                  <div class="mt-4">
+                    <div class="d-flex justify-content-center links pb-3">
+                        Don't have an account? <a routerLink="/register" class="ml-2">Register</a>
+                    </div>
+                  </div>
+                </form>
+            </div>
+           
+        </div>
+    </div>
+</div>

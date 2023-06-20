@@ -1,0 +1,409 @@
+[2023-06-19 15:32:07.144 +05:30  INF]  User profile is available. Using 'C:\Users\krm\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2023-06-19 15:32:07.440 +05:30  INF]  Now listening on: https://localhost:7054
+[2023-06-19 15:32:07.441 +05:30  INF]  Now listening on: http://localhost:5132
+[2023-06-19 15:32:07.444 +05:30  INF]  Application started. Press Ctrl+C to shut down.
+[2023-06-19 15:32:07.445 +05:30  INF]  Hosting environment: Development
+[2023-06-19 15:32:07.445 +05:30  INF]  Content root path: C:\Users\krm\Downloads\ui-part-cv-main\poc.api\
+[2023-06-19 15:35:17.721 +05:30  INF]  User profile is available. Using 'C:\Users\krm\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2023-06-19 15:35:17.883 +05:30  INF]  Now listening on: https://localhost:7054
+[2023-06-19 15:35:17.883 +05:30  INF]  Now listening on: http://localhost:5132
+[2023-06-19 15:35:17.886 +05:30  INF]  Application started. Press Ctrl+C to shut down.
+[2023-06-19 15:35:17.886 +05:30  INF]  Hosting environment: Development
+[2023-06-19 15:35:17.886 +05:30  INF]  Content root path: C:\Users\krm\Downloads\ui-part-cv-main\poc.api\
+[2023-06-19 15:35:47.043 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7054/api/Users/login?uname=batman&pwd=string - -
+[2023-06-19 15:35:47.126 +05:30  INF]  CORS policy execution successful.
+[2023-06-19 15:35:47.189 +05:30  INF]  Executing endpoint 'poc.api.Controllers.UsersController.Login (poc.api)'
+[2023-06-19 15:35:47.225 +05:30  INF]  Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] Login(System.String, System.String) on controller poc.api.Controllers.UsersController (poc.api).
+[2023-06-19 15:35:47.390 +05:30  INF]  Weather Forecast executing...
+[2023-06-19 15:35:47.971 +05:30  WRN]  No store type was specified for the decimal property 'Approvedrate' on entity type 'GameData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-19 15:35:47.972 +05:30  WRN]  No store type was specified for the decimal property 'Badrate' on entity type 'GameData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-19 15:35:47.972 +05:30  WRN]  No store type was specified for the decimal property 'strategy1_approvedrate' on entity type 'TeamboardData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-19 15:35:47.972 +05:30  WRN]  No store type was specified for the decimal property 'strategy1_badrate' on entity type 'TeamboardData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-19 15:35:47.972 +05:30  WRN]  No store type was specified for the decimal property 'strategy2_approvedrate' on entity type 'TeamboardData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-19 15:35:47.972 +05:30  WRN]  No store type was specified for the decimal property 'strategy2_badrate' on entity type 'TeamboardData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-19 15:35:47.972 +05:30  WRN]  No store type was specified for the decimal property 'strategy3_approvedrate' on entity type 'TeamboardData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-19 15:35:47.972 +05:30  WRN]  No store type was specified for the decimal property 'strategy3_badrate' on entity type 'TeamboardData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-19 15:35:48.838 +05:30  INF]  Executed DbCommand (66ms) [Parameters=[@__uname_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[username], [u].[PasswordHash], [u].[PasswordSalt], [u].[role], [u].[teamname]
+FROM [UserDatas] AS [u]
+WHERE [u].[username] = @__uname_0
+[2023-06-19 15:35:49.109 +05:30  INF]  Executing OkObjectResult, writing value of type 'System.String'.
+[2023-06-19 15:35:49.122 +05:30  INF]  Executed action poc.api.Controllers.UsersController.Login (poc.api) in 1888.1522ms
+[2023-06-19 15:35:49.123 +05:30  INF]  Executed endpoint 'poc.api.Controllers.UsersController.Login (poc.api)'
+[2023-06-19 15:35:49.134 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7054/api/Users/login?uname=batman&pwd=string - - - 200 - text/plain;+charset=utf-8 2095.2868ms
+[2023-06-19 15:37:56.144 +05:30  INF]  Request starting HTTP/2 OPTIONS https://localhost:7054/api/Users - -
+[2023-06-19 15:37:56.146 +05:30  INF]  CORS policy execution successful.
+[2023-06-19 15:37:56.149 +05:30  INF]  Request finished HTTP/2 OPTIONS https://localhost:7054/api/Users - - - 204 - - 4.9842ms
+[2023-06-19 15:37:56.153 +05:30  INF]  Request starting HTTP/2 POST https://localhost:7054/api/Users application/json 83
+[2023-06-19 15:37:56.154 +05:30  INF]  CORS policy execution successful.
+[2023-06-19 15:37:56.156 +05:30  INF]  Executing endpoint 'poc.api.Controllers.UsersController.AddEmployees (poc.api)'
+[2023-06-19 15:37:56.159 +05:30  INF]  Route matched with {action = "AddEmployees", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddEmployees(poc.api.Models.User) on controller poc.api.Controllers.UsersController (poc.api).
+[2023-06-19 15:37:56.160 +05:30  INF]  Weather Forecast executing...
+[2023-06-19 15:37:56.470 +05:30  INF]  Executed DbCommand (11ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 8000) (DbType = Binary), @p2='?' (Size = 8000) (DbType = Binary), @p3='?' (Size = 4000), @p4='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [UserDatas] ([username], [PasswordHash], [PasswordSalt], [role], [teamname])
+VALUES (@p0, @p1, @p2, @p3, @p4);
+[2023-06-19 15:37:56.482 +05:30  INF]  Executing OkObjectResult, writing value of type 'poc.api.Models.UserData'.
+[2023-06-19 15:37:56.510 +05:30  INF]  Executed action poc.api.Controllers.UsersController.AddEmployees (poc.api) in 350.5096ms
+[2023-06-19 15:37:56.510 +05:30  INF]  Executed endpoint 'poc.api.Controllers.UsersController.AddEmployees (poc.api)'
+[2023-06-19 15:37:56.510 +05:30  INF]  Request finished HTTP/2 POST https://localhost:7054/api/Users application/json 83 - 200 - application/json;+charset=utf-8 356.9307ms
+[2023-06-19 15:40:23.613 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7054/api/Users/login?uname=batman&pwd=string - -
+[2023-06-19 15:40:23.614 +05:30  INF]  CORS policy execution successful.
+[2023-06-19 15:40:23.616 +05:30  INF]  Executing endpoint 'poc.api.Controllers.UsersController.Login (poc.api)'
+[2023-06-19 15:40:23.616 +05:30  INF]  Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] Login(System.String, System.String) on controller poc.api.Controllers.UsersController (poc.api).
+[2023-06-19 15:40:23.619 +05:30  INF]  Weather Forecast executing...
+[2023-06-19 15:40:23.677 +05:30  INF]  Executed DbCommand (2ms) [Parameters=[@__uname_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[username], [u].[PasswordHash], [u].[PasswordSalt], [u].[role], [u].[teamname]
+FROM [UserDatas] AS [u]
+WHERE [u].[username] = @__uname_0
+[2023-06-19 15:40:23.678 +05:30  INF]  Executing OkObjectResult, writing value of type 'System.String'.
+[2023-06-19 15:40:23.678 +05:30  INF]  Executed action poc.api.Controllers.UsersController.Login (poc.api) in 62.033ms
+[2023-06-19 15:40:23.678 +05:30  INF]  Executed endpoint 'poc.api.Controllers.UsersController.Login (poc.api)'
+[2023-06-19 15:40:23.678 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7054/api/Users/login?uname=batman&pwd=string - - - 200 - text/plain;+charset=utf-8 65.2671ms
+[2023-06-19 15:40:47.291 +05:30  INF]  Request starting HTTP/2 OPTIONS https://localhost:7054/api/Users/gamedata - -
+[2023-06-19 15:40:47.292 +05:30  INF]  CORS policy execution successful.
+[2023-06-19 15:40:47.292 +05:30  INF]  Request finished HTTP/2 OPTIONS https://localhost:7054/api/Users/gamedata - - - 204 - - 0.5983ms
+[2023-06-19 15:40:47.295 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7054/api/Users/gamedata - -
+[2023-06-19 15:40:47.295 +05:30  INF]  CORS policy execution successful.
+[2023-06-19 15:40:47.375 +05:30  INF]  Executing endpoint 'poc.api.Controllers.UsersController.fetchGameData (poc.api)'
+[2023-06-19 15:40:47.377 +05:30  INF]  Route matched with {action = "fetchGameData", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] fetchGameData() on controller poc.api.Controllers.UsersController (poc.api).
+[2023-06-19 15:40:47.378 +05:30  INF]  Weather Forecast executing...
+[2023-06-19 15:40:47.388 +05:30  INF]  Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [g].[Approvedrate], [g].[Badrate], [g].[Population]
+FROM [GameDatas] AS [g]
+[2023-06-19 15:40:47.391 +05:30  INF]  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[poc.api.Models.GameData, poc.api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2023-06-19 15:40:47.410 +05:30  INF]  Executed action poc.api.Controllers.UsersController.fetchGameData (poc.api) in 32.1068ms
+[2023-06-19 15:40:47.410 +05:30  INF]  Executed endpoint 'poc.api.Controllers.UsersController.fetchGameData (poc.api)'
+[2023-06-19 15:40:47.410 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7054/api/Users/gamedata - - - 200 - application/json;+charset=utf-8 115.7116ms
+[2023-06-19 15:41:00.909 +05:30  INF]  Request starting HTTP/2 OPTIONS https://localhost:7054/api/Users/teamboarddata - -
+[2023-06-19 15:41:00.909 +05:30  INF]  CORS policy execution successful.
+[2023-06-19 15:41:00.910 +05:30  INF]  Request finished HTTP/2 OPTIONS https://localhost:7054/api/Users/teamboarddata - - - 204 - - 0.7421ms
+[2023-06-19 15:41:00.912 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7054/api/Users/teamboarddata - -
+[2023-06-19 15:41:00.912 +05:30  INF]  CORS policy execution successful.
+[2023-06-19 15:41:00.913 +05:30  INF]  Executing endpoint 'poc.api.Controllers.UsersController.fetchteamboardData (poc.api)'
+[2023-06-19 15:41:00.916 +05:30  INF]  Route matched with {action = "fetchteamboardData", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] fetchteamboardData() on controller poc.api.Controllers.UsersController (poc.api).
+[2023-06-19 15:41:00.916 +05:30  INF]  Weather Forecast executing...
+[2023-06-19 15:41:00.925 +05:30  INF]  Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[strategy1_approvedrate], [t].[strategy1_badrate], [t].[strategy1_population], [t].[strategy2_approvedrate], [t].[strategy2_badrate], [t].[strategy2_population], [t].[strategy3_approvedrate], [t].[strategy3_badrate], [t].[strategy3_population], [t].[teamname], [t].[username]
+FROM [TeamboardDatas] AS [t]
+[2023-06-19 15:41:00.925 +05:30  INF]  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[poc.api.Models.TeamboardData, poc.api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2023-06-19 15:41:00.929 +05:30  INF]  Executed action poc.api.Controllers.UsersController.fetchteamboardData (poc.api) in 12.6795ms
+[2023-06-19 15:41:00.929 +05:30  INF]  Executed endpoint 'poc.api.Controllers.UsersController.fetchteamboardData (poc.api)'
+[2023-06-19 15:41:00.929 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7054/api/Users/teamboarddata - - - 200 - application/json;+charset=utf-8 17.0176ms
+[2023-06-19 15:41:29.529 +05:30  INF]  Request starting HTTP/2 OPTIONS https://localhost:7054/api/Users - -
+[2023-06-19 15:41:29.529 +05:30  INF]  CORS policy execution successful.
+[2023-06-19 15:41:29.529 +05:30  INF]  Request finished HTTP/2 OPTIONS https://localhost:7054/api/Users - - - 204 - - 0.3284ms
+[2023-06-19 15:41:29.532 +05:30  INF]  Request starting HTTP/2 POST https://localhost:7054/api/Users application/json 80
+[2023-06-19 15:41:29.532 +05:30  INF]  CORS policy execution successful.
+[2023-06-19 15:41:29.532 +05:30  INF]  Executing endpoint 'poc.api.Controllers.UsersController.AddEmployees (poc.api)'
+[2023-06-19 15:41:29.532 +05:30  INF]  Route matched with {action = "AddEmployees", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddEmployees(poc.api.Models.User) on controller poc.api.Controllers.UsersController (poc.api).
+[2023-06-19 15:41:29.532 +05:30  INF]  Weather Forecast executing...
+[2023-06-19 15:41:29.542 +05:30  ERR]  Failed executing DbCommand (6ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 8000) (DbType = Binary), @p2='?' (Size = 8000) (DbType = Binary), @p3='?' (Size = 4000), @p4='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [UserDatas] ([username], [PasswordHash], [PasswordSalt], [role], [teamname])
+VALUES (@p0, @p1, @p2, @p3, @p4);
+[2023-06-19 15:41:29.585 +05:30  ERR]  An exception occurred in the database while saving changes for context type 'poc.api.Data.PocDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_UserDatas'. Cannot insert duplicate key in object 'dbo.UserDatas'. The duplicate key value is (batman).
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__208_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:2a94ca60-7b7c-476c-a034-1bf1d3ba8803
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_UserDatas'. Cannot insert duplicate key in object 'dbo.UserDatas'. The duplicate key value is (batman).
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__208_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:2a94ca60-7b7c-476c-a034-1bf1d3ba8803
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+[2023-06-19 15:41:29.587 +05:30  INF]  Executed action poc.api.Controllers.UsersController.AddEmployees (poc.api) in 54.5308ms
+[2023-06-19 15:41:29.587 +05:30  INF]  Executed endpoint 'poc.api.Controllers.UsersController.AddEmployees (poc.api)'
+[2023-06-19 15:41:29.587 +05:30  ERR]  An unhandled exception has occurred while executing the request.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_UserDatas'. Cannot insert duplicate key in object 'dbo.UserDatas'. The duplicate key value is (batman).
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__208_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:2a94ca60-7b7c-476c-a034-1bf1d3ba8803
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at poc.api.Controllers.UsersController.AddEmployees(User emprequest) in C:\Users\krm\Downloads\ui-part-cv-main\poc.api\Controllers\UsersController.cs:line 59
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+[2023-06-19 15:41:29.873 +05:30  INF]  Request finished HTTP/2 POST https://localhost:7054/api/Users application/json 80 - 500 - text/plain;+charset=utf-8 340.6369ms
+[2023-06-19 15:41:47.267 +05:30  INF]  Request starting HTTP/2 OPTIONS https://localhost:7054/api/Users - -
+[2023-06-19 15:41:47.268 +05:30  INF]  CORS policy execution successful.
+[2023-06-19 15:41:47.268 +05:30  INF]  Request finished HTTP/2 OPTIONS https://localhost:7054/api/Users - - - 204 - - 0.5987ms
+[2023-06-19 15:41:47.270 +05:30  INF]  Request starting HTTP/2 POST https://localhost:7054/api/Users application/json 80
+[2023-06-19 15:41:47.270 +05:30  INF]  CORS policy execution successful.
+[2023-06-19 15:41:47.270 +05:30  INF]  Executing endpoint 'poc.api.Controllers.UsersController.AddEmployees (poc.api)'
+[2023-06-19 15:41:47.270 +05:30  INF]  Route matched with {action = "AddEmployees", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddEmployees(poc.api.Models.User) on controller poc.api.Controllers.UsersController (poc.api).
+[2023-06-19 15:41:47.270 +05:30  INF]  Weather Forecast executing...
+[2023-06-19 15:41:47.275 +05:30  INF]  Executed DbCommand (2ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 8000) (DbType = Binary), @p2='?' (Size = 8000) (DbType = Binary), @p3='?' (Size = 4000), @p4='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [UserDatas] ([username], [PasswordHash], [PasswordSalt], [role], [teamname])
+VALUES (@p0, @p1, @p2, @p3, @p4);
+[2023-06-19 15:41:47.275 +05:30  INF]  Executing OkObjectResult, writing value of type 'poc.api.Models.UserData'.
+[2023-06-19 15:41:47.276 +05:30  INF]  Executed action poc.api.Controllers.UsersController.AddEmployees (poc.api) in 5.602ms
+[2023-06-19 15:41:47.276 +05:30  INF]  Executed endpoint 'poc.api.Controllers.UsersController.AddEmployees (poc.api)'
+[2023-06-19 15:41:47.276 +05:30  INF]  Request finished HTTP/2 POST https://localhost:7054/api/Users application/json 80 - 200 - application/json;+charset=utf-8 6.3276ms
+[2023-06-19 15:42:04.417 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7054/api/Users/login?uname=sathak&pwd=string - -
+[2023-06-19 15:42:04.417 +05:30  INF]  CORS policy execution successful.
+[2023-06-19 15:42:04.418 +05:30  INF]  Executing endpoint 'poc.api.Controllers.UsersController.Login (poc.api)'
+[2023-06-19 15:42:04.418 +05:30  INF]  Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] Login(System.String, System.String) on controller poc.api.Controllers.UsersController (poc.api).
+[2023-06-19 15:42:04.418 +05:30  INF]  Weather Forecast executing...
+[2023-06-19 15:42:04.420 +05:30  INF]  Executed DbCommand (1ms) [Parameters=[@__uname_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[username], [u].[PasswordHash], [u].[PasswordSalt], [u].[role], [u].[teamname]
+FROM [UserDatas] AS [u]
+WHERE [u].[username] = @__uname_0
+[2023-06-19 15:42:04.421 +05:30  INF]  Executing OkObjectResult, writing value of type 'System.String'.
+[2023-06-19 15:42:04.421 +05:30  INF]  Executed action poc.api.Controllers.UsersController.Login (poc.api) in 2.6971ms
+[2023-06-19 15:42:04.421 +05:30  INF]  Executed endpoint 'poc.api.Controllers.UsersController.Login (poc.api)'
+[2023-06-19 15:42:04.421 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7054/api/Users/login?uname=sathak&pwd=string - - - 200 - text/plain;+charset=utf-8 3.7200ms
+[2023-06-19 15:42:23.024 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7054/api/Users/login?uname=sathak&pwd=jrtgwjntrjof - -
+[2023-06-19 15:42:23.025 +05:30  INF]  CORS policy execution successful.
+[2023-06-19 15:42:23.025 +05:30  INF]  Executing endpoint 'poc.api.Controllers.UsersController.Login (poc.api)'
+[2023-06-19 15:42:23.025 +05:30  INF]  Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] Login(System.String, System.String) on controller poc.api.Controllers.UsersController (poc.api).
+[2023-06-19 15:42:23.025 +05:30  INF]  Weather Forecast executing...
+[2023-06-19 15:42:23.028 +05:30  INF]  Executed DbCommand (1ms) [Parameters=[@__uname_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[username], [u].[PasswordHash], [u].[PasswordSalt], [u].[role], [u].[teamname]
+FROM [UserDatas] AS [u]
+WHERE [u].[username] = @__uname_0
+[2023-06-19 15:42:23.028 +05:30  INF]  Executing ObjectResult, writing value of type 'System.String'.
+[2023-06-19 15:42:23.028 +05:30  INF]  Executed action poc.api.Controllers.UsersController.Login (poc.api) in 3.2464ms
+[2023-06-19 15:42:23.028 +05:30  INF]  Executed endpoint 'poc.api.Controllers.UsersController.Login (poc.api)'
+[2023-06-19 15:42:23.028 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7054/api/Users/login?uname=sathak&pwd=jrtgwjntrjof - - - 200 - text/plain;+charset=utf-8 4.0304ms
+[2023-06-19 15:42:53.000 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7054/api/Users/login?uname=sathak&pwd=jsathak - -
+[2023-06-19 15:42:53.001 +05:30  INF]  CORS policy execution successful.
+[2023-06-19 15:42:53.001 +05:30  INF]  Executing endpoint 'poc.api.Controllers.UsersController.Login (poc.api)'
+[2023-06-19 15:42:53.001 +05:30  INF]  Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] Login(System.String, System.String) on controller poc.api.Controllers.UsersController (poc.api).
+[2023-06-19 15:42:53.001 +05:30  INF]  Weather Forecast executing...
+[2023-06-19 15:42:53.003 +05:30  INF]  Executed DbCommand (2ms) [Parameters=[@__uname_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[username], [u].[PasswordHash], [u].[PasswordSalt], [u].[role], [u].[teamname]
+FROM [UserDatas] AS [u]
+WHERE [u].[username] = @__uname_0
+[2023-06-19 15:42:53.004 +05:30  INF]  Executing ObjectResult, writing value of type 'System.String'.
+[2023-06-19 15:42:53.004 +05:30  INF]  Executed action poc.api.Controllers.UsersController.Login (poc.api) in 2.9521ms
+[2023-06-19 15:42:53.004 +05:30  INF]  Executed endpoint 'poc.api.Controllers.UsersController.Login (poc.api)'
+[2023-06-19 15:42:53.004 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7054/api/Users/login?uname=sathak&pwd=jsathak - - - 200 - text/plain;+charset=utf-8 3.5921ms
+[2023-06-19 17:32:31.304 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7054/api/Users/login?uname=batman&pwd=string - -
+[2023-06-19 17:32:31.305 +05:30  INF]  CORS policy execution successful.
+[2023-06-19 17:32:31.305 +05:30  INF]  Executing endpoint 'poc.api.Controllers.UsersController.Login (poc.api)'
+[2023-06-19 17:32:31.305 +05:30  INF]  Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] Login(System.String, System.String) on controller poc.api.Controllers.UsersController (poc.api).
+[2023-06-19 17:32:31.305 +05:30  INF]  Weather Forecast executing...
+[2023-06-19 17:32:31.314 +05:30  INF]  Executed DbCommand (1ms) [Parameters=[@__uname_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[username], [u].[PasswordHash], [u].[PasswordSalt], [u].[role], [u].[teamname]
+FROM [UserDatas] AS [u]
+WHERE [u].[username] = @__uname_0
+[2023-06-19 17:32:31.314 +05:30  INF]  Executing OkObjectResult, writing value of type 'System.String'.
+[2023-06-19 17:32:31.314 +05:30  INF]  Executed action poc.api.Controllers.UsersController.Login (poc.api) in 9.6194ms
+[2023-06-19 17:32:31.315 +05:30  INF]  Executed endpoint 'poc.api.Controllers.UsersController.Login (poc.api)'
+[2023-06-19 17:32:31.315 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7054/api/Users/login?uname=batman&pwd=string - - - 200 - text/plain;+charset=utf-8 10.5819ms
+[2023-06-19 17:32:43.695 +05:30  INF]  Request starting HTTP/2 OPTIONS https://localhost:7054/api/Users/gamedata - -
+[2023-06-19 17:32:43.696 +05:30  INF]  CORS policy execution successful.
+[2023-06-19 17:32:43.696 +05:30  INF]  Request finished HTTP/2 OPTIONS https://localhost:7054/api/Users/gamedata - - - 204 - - 0.4158ms
+[2023-06-19 17:32:43.698 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7054/api/Users/gamedata - -
+[2023-06-19 17:32:43.698 +05:30  INF]  CORS policy execution successful.
+[2023-06-19 17:32:43.700 +05:30  INF]  Executing endpoint 'poc.api.Controllers.UsersController.fetchGameData (poc.api)'
+[2023-06-19 17:32:43.700 +05:30  INF]  Route matched with {action = "fetchGameData", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] fetchGameData() on controller poc.api.Controllers.UsersController (poc.api).
+[2023-06-19 17:32:43.700 +05:30  INF]  Weather Forecast executing...
+[2023-06-19 17:32:43.702 +05:30  INF]  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [g].[Approvedrate], [g].[Badrate], [g].[Population]
+FROM [GameDatas] AS [g]
+[2023-06-19 17:32:43.703 +05:30  INF]  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[poc.api.Models.GameData, poc.api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2023-06-19 17:32:43.703 +05:30  INF]  Executed action poc.api.Controllers.UsersController.fetchGameData (poc.api) in 2.7364ms
+[2023-06-19 17:32:43.703 +05:30  INF]  Executed endpoint 'poc.api.Controllers.UsersController.fetchGameData (poc.api)'
+[2023-06-19 17:32:43.703 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7054/api/Users/gamedata - - - 200 - application/json;+charset=utf-8 5.3839ms
+[2023-06-19 17:32:57.645 +05:30  INF]  Request starting HTTP/2 OPTIONS https://localhost:7054/api/Users/teamboarddata - -
+[2023-06-19 17:32:57.645 +05:30  INF]  CORS policy execution successful.
+[2023-06-19 17:32:57.645 +05:30  INF]  Request finished HTTP/2 OPTIONS https://localhost:7054/api/Users/teamboarddata - - - 204 - - 0.5408ms
+[2023-06-19 17:32:57.647 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7054/api/Users/teamboarddata - -
+[2023-06-19 17:32:57.647 +05:30  INF]  CORS policy execution successful.
+[2023-06-19 17:32:57.648 +05:30  INF]  Executing endpoint 'poc.api.Controllers.UsersController.fetchteamboardData (poc.api)'
+[2023-06-19 17:32:57.648 +05:30  INF]  Route matched with {action = "fetchteamboardData", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] fetchteamboardData() on controller poc.api.Controllers.UsersController (poc.api).
+[2023-06-19 17:32:57.648 +05:30  INF]  Weather Forecast executing...
+[2023-06-19 17:32:57.651 +05:30  INF]  Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[strategy1_approvedrate], [t].[strategy1_badrate], [t].[strategy1_population], [t].[strategy2_approvedrate], [t].[strategy2_badrate], [t].[strategy2_population], [t].[strategy3_approvedrate], [t].[strategy3_badrate], [t].[strategy3_population], [t].[teamname], [t].[username]
+FROM [TeamboardDatas] AS [t]
+[2023-06-19 17:32:57.652 +05:30  INF]  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[poc.api.Models.TeamboardData, poc.api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2023-06-19 17:32:57.652 +05:30  INF]  Executed action poc.api.Controllers.UsersController.fetchteamboardData (poc.api) in 3.9849ms
+[2023-06-19 17:32:57.652 +05:30  INF]  Executed endpoint 'poc.api.Controllers.UsersController.fetchteamboardData (poc.api)'
+[2023-06-19 17:32:57.652 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7054/api/Users/teamboarddata - - - 200 - application/json;+charset=utf-8 4.9170ms
+[2023-06-19 17:54:11.628 +05:30  INF]  Application is shutting down...
+[2023-06-19 17:56:01.277 +05:30  WRN]  No store type was specified for the decimal property 'Approvedrate' on entity type 'GameData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-19 17:56:01.302 +05:30  WRN]  No store type was specified for the decimal property 'Badrate' on entity type 'GameData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-19 17:56:01.302 +05:30  WRN]  No store type was specified for the decimal property 'strategy1_approvedrate' on entity type 'TeamboardData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-19 17:56:01.302 +05:30  WRN]  No store type was specified for the decimal property 'strategy1_badrate' on entity type 'TeamboardData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-19 17:56:01.302 +05:30  WRN]  No store type was specified for the decimal property 'strategy2_approvedrate' on entity type 'TeamboardData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-19 17:56:01.302 +05:30  WRN]  No store type was specified for the decimal property 'strategy2_badrate' on entity type 'TeamboardData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-19 17:56:01.302 +05:30  WRN]  No store type was specified for the decimal property 'strategy3_approvedrate' on entity type 'TeamboardData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-19 17:56:01.302 +05:30  WRN]  No store type was specified for the decimal property 'strategy3_badrate' on entity type 'TeamboardData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-19 17:56:01.409 +05:30  WRN]  No store type was specified for the decimal property 'Approvedrate' on entity type 'GameData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-19 17:56:01.413 +05:30  WRN]  No store type was specified for the decimal property 'Badrate' on entity type 'GameData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-19 17:56:01.414 +05:30  WRN]  No store type was specified for the decimal property 'strategy1_approvedrate' on entity type 'TeamboardData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-19 17:56:01.416 +05:30  WRN]  No store type was specified for the decimal property 'strategy1_badrate' on entity type 'TeamboardData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-19 17:56:01.418 +05:30  WRN]  No store type was specified for the decimal property 'strategy2_approvedrate' on entity type 'TeamboardData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-19 17:56:01.421 +05:30  WRN]  No store type was specified for the decimal property 'strategy2_badrate' on entity type 'TeamboardData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-19 17:56:01.422 +05:30  WRN]  No store type was specified for the decimal property 'strategy3_approvedrate' on entity type 'TeamboardData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-19 17:56:01.424 +05:30  WRN]  No store type was specified for the decimal property 'strategy3_badrate' on entity type 'TeamboardData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-19 17:56:56.358 +05:30  WRN]  No store type was specified for the decimal property 'Approvedrate' on entity type 'GameData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-19 17:56:56.381 +05:30  WRN]  No store type was specified for the decimal property 'Badrate' on entity type 'GameData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-19 17:56:56.381 +05:30  WRN]  No store type was specified for the decimal property 'strategy1_approvedrate' on entity type 'TeamboardData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-19 17:56:56.381 +05:30  WRN]  No store type was specified for the decimal property 'strategy1_badrate' on entity type 'TeamboardData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-19 17:56:56.382 +05:30  WRN]  No store type was specified for the decimal property 'strategy2_approvedrate' on entity type 'TeamboardData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-19 17:56:56.382 +05:30  WRN]  No store type was specified for the decimal property 'strategy2_badrate' on entity type 'TeamboardData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-19 17:56:56.382 +05:30  WRN]  No store type was specified for the decimal property 'strategy3_approvedrate' on entity type 'TeamboardData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-19 17:56:56.382 +05:30  WRN]  No store type was specified for the decimal property 'strategy3_badrate' on entity type 'TeamboardData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-19 17:56:56.754 +05:30  WRN]  No store type was specified for the decimal property 'Approvedrate' on entity type 'GameData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-19 17:56:56.757 +05:30  WRN]  No store type was specified for the decimal property 'Badrate' on entity type 'GameData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-19 17:56:56.758 +05:30  WRN]  No store type was specified for the decimal property 'strategy1_approvedrate' on entity type 'TeamboardData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-19 17:56:56.759 +05:30  WRN]  No store type was specified for the decimal property 'strategy1_badrate' on entity type 'TeamboardData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-19 17:56:56.760 +05:30  WRN]  No store type was specified for the decimal property 'strategy2_approvedrate' on entity type 'TeamboardData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-19 17:56:56.761 +05:30  WRN]  No store type was specified for the decimal property 'strategy2_badrate' on entity type 'TeamboardData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-19 17:56:56.762 +05:30  WRN]  No store type was specified for the decimal property 'strategy3_approvedrate' on entity type 'TeamboardData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-19 17:56:56.763 +05:30  WRN]  No store type was specified for the decimal property 'strategy3_badrate' on entity type 'TeamboardData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-19 17:56:57.587 +05:30  INF]  Executed DbCommand (763ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [cvday3.3];
+[2023-06-19 17:56:57.864 +05:30  INF]  Executed DbCommand (272ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [cvday3.3] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+[2023-06-19 17:56:57.887 +05:30  INF]  Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+[2023-06-19 17:56:57.985 +05:30  INF]  Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+[2023-06-19 17:56:57.987 +05:30  INF]  Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+[2023-06-19 17:56:58.011 +05:30  INF]  Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+[2023-06-19 17:56:58.016 +05:30  INF]  Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+[2023-06-19 17:56:58.028 +05:30  INF]  Applying migration '20230619122601_Createtable'.
+[2023-06-19 17:56:58.072 +05:30  INF]  Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Admins] (
+    [username] nvarchar(450) NOT NULL,
+    [password] nvarchar(max) NOT NULL,
+    [role] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_Admins] PRIMARY KEY ([username])
+);
+[2023-06-19 17:56:58.076 +05:30  INF]  Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [GameDatas] (
+    [Approvedrate] decimal(18,2) NOT NULL,
+    [Badrate] decimal(18,2) NOT NULL,
+    [Population] int NOT NULL
+);
+[2023-06-19 17:56:58.079 +05:30  INF]  Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [TeamboardDatas] (
+    [username] nvarchar(max) NOT NULL,
+    [teamname] nvarchar(max) NOT NULL,
+    [strategy1_approvedrate] decimal(18,2) NOT NULL,
+    [strategy1_badrate] decimal(18,2) NOT NULL,
+    [strategy1_population] int NOT NULL,
+    [strategy2_approvedrate] decimal(18,2) NOT NULL,
+    [strategy2_badrate] decimal(18,2) NOT NULL,
+    [strategy2_population] int NOT NULL,
+    [strategy3_approvedrate] decimal(18,2) NOT NULL,
+    [strategy3_badrate] decimal(18,2) NOT NULL,
+    [strategy3_population] int NOT NULL
+);
+[2023-06-19 17:56:58.083 +05:30  INF]  Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [UserDatas] (
+    [username] nvarchar(450) NOT NULL,
+    [PasswordHash] varbinary(max) NOT NULL,
+    [PasswordSalt] varbinary(max) NOT NULL,
+    [teamname] nvarchar(max) NOT NULL,
+    [role] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_UserDatas] PRIMARY KEY ([username])
+);
+[2023-06-19 17:56:58.085 +05:30  INF]  Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Users] (
+    [username] nvarchar(450) NOT NULL,
+    [password] nvarchar(max) NOT NULL,
+    [role] nvarchar(max) NOT NULL,
+    [teamname] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_Users] PRIMARY KEY ([username])
+);
+[2023-06-19 17:56:58.089 +05:30  INF]  Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230619122601_Createtable', N'7.0.5');

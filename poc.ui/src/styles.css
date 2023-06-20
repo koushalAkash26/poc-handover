@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+/* Tu colors
+00a6ca blue
+#fcd800  yellow */
+.active{
+    color: #00a6ca;
+}
+.active:hover{
+    color: #fcd800;
+}

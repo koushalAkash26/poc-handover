@@ -1,0 +1,475 @@
+[2023-06-20 10:20:07.254 +05:30  WRN]  No store type was specified for the decimal property 'Approvedrate' on entity type 'GameData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-20 10:20:07.303 +05:30  WRN]  No store type was specified for the decimal property 'Badrate' on entity type 'GameData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-20 10:20:07.303 +05:30  WRN]  No store type was specified for the decimal property 'strategy1_approvedrate' on entity type 'TeamboardData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-20 10:20:07.303 +05:30  WRN]  No store type was specified for the decimal property 'strategy1_badrate' on entity type 'TeamboardData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-20 10:20:07.303 +05:30  WRN]  No store type was specified for the decimal property 'strategy2_approvedrate' on entity type 'TeamboardData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-20 10:20:07.304 +05:30  WRN]  No store type was specified for the decimal property 'strategy2_badrate' on entity type 'TeamboardData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-20 10:20:07.304 +05:30  WRN]  No store type was specified for the decimal property 'strategy3_approvedrate' on entity type 'TeamboardData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-20 10:20:07.304 +05:30  WRN]  No store type was specified for the decimal property 'strategy3_badrate' on entity type 'TeamboardData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-20 10:20:07.463 +05:30  WRN]  No store type was specified for the decimal property 'Approvedrate' on entity type 'GameData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-20 10:20:07.468 +05:30  WRN]  No store type was specified for the decimal property 'Badrate' on entity type 'GameData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-20 10:20:07.470 +05:30  WRN]  No store type was specified for the decimal property 'strategy1_approvedrate' on entity type 'TeamboardData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-20 10:20:07.472 +05:30  WRN]  No store type was specified for the decimal property 'strategy1_badrate' on entity type 'TeamboardData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-20 10:20:07.474 +05:30  WRN]  No store type was specified for the decimal property 'strategy2_approvedrate' on entity type 'TeamboardData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-20 10:20:07.475 +05:30  WRN]  No store type was specified for the decimal property 'strategy2_badrate' on entity type 'TeamboardData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-20 10:20:07.478 +05:30  WRN]  No store type was specified for the decimal property 'strategy3_approvedrate' on entity type 'TeamboardData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-20 10:20:07.479 +05:30  WRN]  No store type was specified for the decimal property 'strategy3_badrate' on entity type 'TeamboardData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-20 10:22:39.457 +05:30  WRN]  No store type was specified for the decimal property 'Approvedrate' on entity type 'GameData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-20 10:22:39.492 +05:30  WRN]  No store type was specified for the decimal property 'Badrate' on entity type 'GameData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-20 10:22:39.492 +05:30  WRN]  No store type was specified for the decimal property 'strategy1_approvedrate' on entity type 'TeamboardData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-20 10:22:39.492 +05:30  WRN]  No store type was specified for the decimal property 'strategy1_badrate' on entity type 'TeamboardData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-20 10:22:39.492 +05:30  WRN]  No store type was specified for the decimal property 'strategy2_approvedrate' on entity type 'TeamboardData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-20 10:22:39.492 +05:30  WRN]  No store type was specified for the decimal property 'strategy2_badrate' on entity type 'TeamboardData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-20 10:22:39.492 +05:30  WRN]  No store type was specified for the decimal property 'strategy3_approvedrate' on entity type 'TeamboardData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-20 10:22:39.492 +05:30  WRN]  No store type was specified for the decimal property 'strategy3_badrate' on entity type 'TeamboardData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-20 10:22:40.628 +05:30  WRN]  No store type was specified for the decimal property 'Approvedrate' on entity type 'GameData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-20 10:22:40.634 +05:30  WRN]  No store type was specified for the decimal property 'Badrate' on entity type 'GameData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-20 10:22:40.639 +05:30  WRN]  No store type was specified for the decimal property 'strategy1_approvedrate' on entity type 'TeamboardData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-20 10:22:40.641 +05:30  WRN]  No store type was specified for the decimal property 'strategy1_badrate' on entity type 'TeamboardData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-20 10:22:40.644 +05:30  WRN]  No store type was specified for the decimal property 'strategy2_approvedrate' on entity type 'TeamboardData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-20 10:22:40.648 +05:30  WRN]  No store type was specified for the decimal property 'strategy2_badrate' on entity type 'TeamboardData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-20 10:22:40.651 +05:30  WRN]  No store type was specified for the decimal property 'strategy3_approvedrate' on entity type 'TeamboardData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-20 10:22:40.656 +05:30  WRN]  No store type was specified for the decimal property 'strategy3_badrate' on entity type 'TeamboardData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-20 10:22:41.518 +05:30  INF]  Executed DbCommand (758ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [cvday3.4];
+[2023-06-20 10:22:41.741 +05:30  INF]  Executed DbCommand (217ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [cvday3.4] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+[2023-06-20 10:22:41.766 +05:30  INF]  Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+[2023-06-20 10:22:41.882 +05:30  INF]  Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+[2023-06-20 10:22:41.886 +05:30  INF]  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+[2023-06-20 10:22:41.911 +05:30  INF]  Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+[2023-06-20 10:22:41.917 +05:30  INF]  Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+[2023-06-20 10:22:41.937 +05:30  INF]  Applying migration '20230620045007_Creatingnewtable'.
+[2023-06-20 10:22:42.018 +05:30  INF]  Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Admin] (
+    [username] nvarchar(450) NOT NULL,
+    [password] nvarchar(max) NOT NULL,
+    [role] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_Admin] PRIMARY KEY ([username])
+);
+[2023-06-20 10:22:42.023 +05:30  INF]  Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [GameData] (
+    [Approvedrate] decimal(18,2) NOT NULL,
+    [Badrate] decimal(18,2) NOT NULL,
+    [Population] int NOT NULL
+);
+[2023-06-20 10:22:42.028 +05:30  INF]  Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [TeamboardData] (
+    [username] nvarchar(max) NOT NULL,
+    [teamname] nvarchar(max) NOT NULL,
+    [strategy1_approvedrate] decimal(18,2) NOT NULL,
+    [strategy1_badrate] decimal(18,2) NOT NULL,
+    [strategy1_population] int NOT NULL,
+    [strategy2_approvedrate] decimal(18,2) NOT NULL,
+    [strategy2_badrate] decimal(18,2) NOT NULL,
+    [strategy2_population] int NOT NULL,
+    [strategy3_approvedrate] decimal(18,2) NOT NULL,
+    [strategy3_badrate] decimal(18,2) NOT NULL,
+    [strategy3_population] int NOT NULL
+);
+[2023-06-20 10:22:42.033 +05:30  INF]  Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [User] (
+    [username] nvarchar(450) NOT NULL,
+    [password] nvarchar(max) NOT NULL,
+    [role] nvarchar(max) NOT NULL,
+    [teamname] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_User] PRIMARY KEY ([username])
+);
+[2023-06-20 10:22:42.038 +05:30  INF]  Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [UserData] (
+    [username] nvarchar(450) NOT NULL,
+    [PasswordHash] varbinary(max) NOT NULL,
+    [PasswordSalt] varbinary(max) NOT NULL,
+    [teamname] nvarchar(max) NOT NULL,
+    [role] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_UserData] PRIMARY KEY ([username])
+);
+[2023-06-20 10:22:42.045 +05:30  INF]  Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230620045007_Creatingnewtable', N'7.0.5');
+[2023-06-20 10:23:02.857 +05:30  INF]  User profile is available. Using 'C:\Users\krm\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2023-06-20 10:23:03.362 +05:30  INF]  Now listening on: https://localhost:7054
+[2023-06-20 10:23:03.362 +05:30  INF]  Now listening on: http://localhost:5132
+[2023-06-20 10:23:03.367 +05:30  INF]  Application started. Press Ctrl+C to shut down.
+[2023-06-20 10:23:03.367 +05:30  INF]  Hosting environment: Development
+[2023-06-20 10:23:03.367 +05:30  INF]  Content root path: C:\Users\krm\Downloads\ui-part-cv-main\poc.api\
+[2023-06-20 10:24:12.967 +05:30  INF]  Request starting HTTP/2 OPTIONS https://localhost:7054/api/Users - -
+[2023-06-20 10:24:13.128 +05:30  INF]  CORS policy execution successful.
+[2023-06-20 10:24:13.156 +05:30  INF]  Request starting HTTP/2 POST https://localhost:7054/api/Users application/json 77
+[2023-06-20 10:24:13.157 +05:30  INF]  Request finished HTTP/2 OPTIONS https://localhost:7054/api/Users - - - 204 - - 201.1848ms
+[2023-06-20 10:24:13.161 +05:30  INF]  CORS policy execution successful.
+[2023-06-20 10:24:13.303 +05:30  INF]  Executing endpoint 'poc.api.Controllers.UsersController.AddEmployees (poc.api)'
+[2023-06-20 10:24:13.425 +05:30  INF]  Route matched with {action = "AddEmployees", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddEmployees(poc.api.Models.User) on controller poc.api.Controllers.UsersController (poc.api).
+[2023-06-20 10:24:13.834 +05:30  INF]  Application Starts executing...
+[2023-06-20 10:24:15.656 +05:30  WRN]  No store type was specified for the decimal property 'Approvedrate' on entity type 'GameData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-20 10:24:15.657 +05:30  WRN]  No store type was specified for the decimal property 'Badrate' on entity type 'GameData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-20 10:24:15.657 +05:30  WRN]  No store type was specified for the decimal property 'strategy1_approvedrate' on entity type 'TeamboardData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-20 10:24:15.657 +05:30  WRN]  No store type was specified for the decimal property 'strategy1_badrate' on entity type 'TeamboardData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-20 10:24:15.657 +05:30  WRN]  No store type was specified for the decimal property 'strategy2_approvedrate' on entity type 'TeamboardData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-20 10:24:15.657 +05:30  WRN]  No store type was specified for the decimal property 'strategy2_badrate' on entity type 'TeamboardData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-20 10:24:15.657 +05:30  WRN]  No store type was specified for the decimal property 'strategy3_approvedrate' on entity type 'TeamboardData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-20 10:24:15.657 +05:30  WRN]  No store type was specified for the decimal property 'strategy3_badrate' on entity type 'TeamboardData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-20 10:24:17.691 +05:30  INF]  Executed DbCommand (193ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 8000) (DbType = Binary), @p2='?' (Size = 8000) (DbType = Binary), @p3='?' (Size = 4000), @p4='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [UserData] ([username], [PasswordHash], [PasswordSalt], [role], [teamname])
+VALUES (@p0, @p1, @p2, @p3, @p4);
+[2023-06-20 10:24:17.815 +05:30  INF]  Executing OkObjectResult, writing value of type 'poc.api.Models.UserData'.
+[2023-06-20 10:24:17.960 +05:30  INF]  Executed action poc.api.Controllers.UsersController.AddEmployees (poc.api) in 4514.2681ms
+[2023-06-20 10:24:17.962 +05:30  INF]  Executed endpoint 'poc.api.Controllers.UsersController.AddEmployees (poc.api)'
+[2023-06-20 10:24:17.989 +05:30  INF]  Request finished HTTP/2 POST https://localhost:7054/api/Users application/json 77 - 200 - application/json;+charset=utf-8 4832.8602ms
+[2023-06-20 10:26:01.487 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7054/api/Users/login?uname=cred&pwd=string - -
+[2023-06-20 10:26:01.529 +05:30  INF]  CORS policy execution successful.
+[2023-06-20 10:26:01.530 +05:30  INF]  Executing endpoint 'poc.api.Controllers.UsersController.Login (poc.api)'
+[2023-06-20 10:26:01.546 +05:30  INF]  Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] Login(System.String, System.String) on controller poc.api.Controllers.UsersController (poc.api).
+[2023-06-20 10:26:01.548 +05:30  INF]  Application Starts executing...
+[2023-06-20 10:26:02.794 +05:30  INF]  Executed DbCommand (21ms) [Parameters=[@__uname_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[username], [u].[PasswordHash], [u].[PasswordSalt], [u].[role], [u].[teamname]
+FROM [UserData] AS [u]
+WHERE [u].[username] = @__uname_0
+[2023-06-20 10:26:03.262 +05:30  INF]  Executing OkObjectResult, writing value of type 'System.String'.
+[2023-06-20 10:26:03.263 +05:30  INF]  Executed action poc.api.Controllers.UsersController.Login (poc.api) in 1716.733ms
+[2023-06-20 10:26:03.264 +05:30  INF]  Executed endpoint 'poc.api.Controllers.UsersController.Login (poc.api)'
+[2023-06-20 10:26:03.265 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7054/api/Users/login?uname=cred&pwd=string - - - 200 - text/plain;+charset=utf-8 1777.9810ms
+[2023-06-20 10:26:06.863 +05:30  INF]  Request starting HTTP/2 OPTIONS https://localhost:7054/api/Users/gamedata - -
+[2023-06-20 10:26:06.868 +05:30  INF]  CORS policy execution successful.
+[2023-06-20 10:26:06.868 +05:30  INF]  Request finished HTTP/2 OPTIONS https://localhost:7054/api/Users/gamedata - - - 204 - - 5.5307ms
+[2023-06-20 10:26:06.873 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7054/api/Users/gamedata - -
+[2023-06-20 10:26:06.873 +05:30  INF]  CORS policy execution successful.
+[2023-06-20 10:26:07.124 +05:30  INF]  Executing endpoint 'poc.api.Controllers.UsersController.fetchGameData (poc.api)'
+[2023-06-20 10:26:07.128 +05:30  INF]  Route matched with {action = "fetchGameData", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] fetchGameData() on controller poc.api.Controllers.UsersController (poc.api).
+[2023-06-20 10:26:07.132 +05:30  INF]  Application Starts executing...
+[2023-06-20 10:26:07.190 +05:30  INF]  Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [g].[Approvedrate], [g].[Badrate], [g].[Population]
+FROM [GameData] AS [g]
+[2023-06-20 10:26:07.193 +05:30  INF]  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[poc.api.Models.GameData, poc.api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2023-06-20 10:26:07.252 +05:30  INF]  Executed action poc.api.Controllers.UsersController.fetchGameData (poc.api) in 123.3967ms
+[2023-06-20 10:26:07.252 +05:30  INF]  Executed endpoint 'poc.api.Controllers.UsersController.fetchGameData (poc.api)'
+[2023-06-20 10:26:07.254 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7054/api/Users/gamedata - - - 200 - application/json;+charset=utf-8 381.3134ms
+[2023-06-20 11:00:32.588 +05:30  INF]  Request starting HTTP/2 OPTIONS https://localhost:7054/api/Users/gamedata - -
+[2023-06-20 11:00:32.589 +05:30  INF]  CORS policy execution successful.
+[2023-06-20 11:00:32.589 +05:30  INF]  Request finished HTTP/2 OPTIONS https://localhost:7054/api/Users/gamedata - - - 204 - - 0.9447ms
+[2023-06-20 11:00:32.609 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7054/api/Users/gamedata - -
+[2023-06-20 11:00:32.609 +05:30  INF]  CORS policy execution successful.
+[2023-06-20 11:00:32.612 +05:30  INF]  Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+[2023-06-20 11:00:32.617 +05:30  INF]  AuthenticationScheme: Bearer was challenged.
+[2023-06-20 11:00:32.617 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7054/api/Users/gamedata - - - 401 0 - 8.6776ms
+[2023-06-20 11:00:51.615 +05:30  INF]  Request starting HTTP/2 OPTIONS https://localhost:7054/api/Users/gamedata - -
+[2023-06-20 11:00:51.615 +05:30  INF]  CORS policy execution successful.
+[2023-06-20 11:00:51.615 +05:30  INF]  Request finished HTTP/2 OPTIONS https://localhost:7054/api/Users/gamedata - - - 204 - - 0.6964ms
+[2023-06-20 11:00:51.637 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7054/api/Users/gamedata - -
+[2023-06-20 11:00:51.637 +05:30  INF]  CORS policy execution successful.
+[2023-06-20 11:00:51.639 +05:30  INF]  Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+[2023-06-20 11:00:51.640 +05:30  INF]  AuthenticationScheme: Bearer was challenged.
+[2023-06-20 11:00:51.640 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7054/api/Users/gamedata - - - 401 0 - 2.8882ms
+[2023-06-20 11:01:16.938 +05:30  INF]  Request starting HTTP/2 OPTIONS https://localhost:7054/api/Users - -
+[2023-06-20 11:01:16.939 +05:30  INF]  CORS policy execution successful.
+[2023-06-20 11:01:16.939 +05:30  INF]  Request finished HTTP/2 OPTIONS https://localhost:7054/api/Users - - - 204 - - 0.9768ms
+[2023-06-20 11:01:16.941 +05:30  INF]  Request starting HTTP/2 POST https://localhost:7054/api/Users application/json 75
+[2023-06-20 11:01:16.941 +05:30  INF]  CORS policy execution successful.
+[2023-06-20 11:01:16.942 +05:30  INF]  Executing endpoint 'poc.api.Controllers.UsersController.AddEmployees (poc.api)'
+[2023-06-20 11:01:16.942 +05:30  INF]  Route matched with {action = "AddEmployees", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddEmployees(poc.api.Models.User) on controller poc.api.Controllers.UsersController (poc.api).
+[2023-06-20 11:01:16.943 +05:30  INF]  Application Starts executing...
+[2023-06-20 11:01:16.972 +05:30  INF]  Executed DbCommand (8ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 8000) (DbType = Binary), @p2='?' (Size = 8000) (DbType = Binary), @p3='?' (Size = 4000), @p4='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [UserData] ([username], [PasswordHash], [PasswordSalt], [role], [teamname])
+VALUES (@p0, @p1, @p2, @p3, @p4);
+[2023-06-20 11:01:16.973 +05:30  INF]  Executing OkObjectResult, writing value of type 'poc.api.Models.UserData'.
+[2023-06-20 11:01:16.973 +05:30  INF]  Executed action poc.api.Controllers.UsersController.AddEmployees (poc.api) in 31.342ms
+[2023-06-20 11:01:16.973 +05:30  INF]  Executed endpoint 'poc.api.Controllers.UsersController.AddEmployees (poc.api)'
+[2023-06-20 11:01:16.974 +05:30  INF]  Request finished HTTP/2 POST https://localhost:7054/api/Users application/json 75 - 200 - application/json;+charset=utf-8 33.0326ms
+[2023-06-20 11:01:29.395 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7054/api/Users/login?uname=tu&pwd=string - -
+[2023-06-20 11:01:29.396 +05:30  INF]  CORS policy execution successful.
+[2023-06-20 11:01:29.397 +05:30  INF]  Executing endpoint 'poc.api.Controllers.UsersController.Login (poc.api)'
+[2023-06-20 11:01:29.397 +05:30  INF]  Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] Login(System.String, System.String) on controller poc.api.Controllers.UsersController (poc.api).
+[2023-06-20 11:01:29.398 +05:30  INF]  Application Starts executing...
+[2023-06-20 11:01:29.414 +05:30  INF]  Executed DbCommand (5ms) [Parameters=[@__uname_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[username], [u].[PasswordHash], [u].[PasswordSalt], [u].[role], [u].[teamname]
+FROM [UserData] AS [u]
+WHERE [u].[username] = @__uname_0
+[2023-06-20 11:01:29.418 +05:30  INF]  Executing OkObjectResult, writing value of type 'System.String'.
+[2023-06-20 11:01:29.419 +05:30  INF]  Executed action poc.api.Controllers.UsersController.Login (poc.api) in 21.8849ms
+[2023-06-20 11:01:29.419 +05:30  INF]  Executed endpoint 'poc.api.Controllers.UsersController.Login (poc.api)'
+[2023-06-20 11:01:29.419 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7054/api/Users/login?uname=tu&pwd=string - - - 200 - text/plain;+charset=utf-8 24.3317ms
+[2023-06-20 11:01:32.827 +05:30  INF]  Request starting HTTP/2 OPTIONS https://localhost:7054/api/Users/gamedata - -
+[2023-06-20 11:01:32.828 +05:30  INF]  CORS policy execution successful.
+[2023-06-20 11:01:32.828 +05:30  INF]  Request finished HTTP/2 OPTIONS https://localhost:7054/api/Users/gamedata - - - 204 - - 0.8690ms
+[2023-06-20 11:01:32.831 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7054/api/Users/gamedata - -
+[2023-06-20 11:01:32.831 +05:30  INF]  CORS policy execution successful.
+[2023-06-20 11:01:32.832 +05:30  INF]  Executing endpoint 'poc.api.Controllers.UsersController.fetchGameData (poc.api)'
+[2023-06-20 11:01:32.832 +05:30  INF]  Route matched with {action = "fetchGameData", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] fetchGameData() on controller poc.api.Controllers.UsersController (poc.api).
+[2023-06-20 11:01:32.833 +05:30  INF]  Application Starts executing...
+[2023-06-20 11:01:32.838 +05:30  INF]  Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [g].[Approvedrate], [g].[Badrate], [g].[Population]
+FROM [GameData] AS [g]
+[2023-06-20 11:01:32.838 +05:30  INF]  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[poc.api.Models.GameData, poc.api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2023-06-20 11:01:32.839 +05:30  INF]  Executed action poc.api.Controllers.UsersController.fetchGameData (poc.api) in 6.8475ms
+[2023-06-20 11:01:32.839 +05:30  INF]  Executed endpoint 'poc.api.Controllers.UsersController.fetchGameData (poc.api)'
+[2023-06-20 11:01:32.839 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7054/api/Users/gamedata - - - 200 - application/json;+charset=utf-8 8.7268ms
+[2023-06-20 11:01:42.119 +05:30  INF]  Request starting HTTP/2 OPTIONS https://localhost:7054/api/Users/teamboarddata - -
+[2023-06-20 11:01:42.119 +05:30  INF]  CORS policy execution successful.
+[2023-06-20 11:01:42.120 +05:30  INF]  Request finished HTTP/2 OPTIONS https://localhost:7054/api/Users/teamboarddata - - - 204 - - 0.7588ms
+[2023-06-20 11:01:42.125 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7054/api/Users/teamboarddata - -
+[2023-06-20 11:01:42.125 +05:30  INF]  CORS policy execution successful.
+[2023-06-20 11:01:42.126 +05:30  INF]  Executing endpoint 'poc.api.Controllers.UsersController.fetchteamboardData (poc.api)'
+[2023-06-20 11:01:42.137 +05:30  INF]  Route matched with {action = "fetchteamboardData", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] fetchteamboardData() on controller poc.api.Controllers.UsersController (poc.api).
+[2023-06-20 11:01:42.138 +05:30  INF]  Application Starts executing...
+[2023-06-20 11:01:42.158 +05:30  INF]  Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[strategy1_approvedrate], [t].[strategy1_badrate], [t].[strategy1_population], [t].[strategy2_approvedrate], [t].[strategy2_badrate], [t].[strategy2_population], [t].[strategy3_approvedrate], [t].[strategy3_badrate], [t].[strategy3_population], [t].[teamname], [t].[username]
+FROM [TeamboardData] AS [t]
+[2023-06-20 11:01:42.159 +05:30  INF]  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[poc.api.Models.TeamboardData, poc.api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2023-06-20 11:01:42.167 +05:30  INF]  Executed action poc.api.Controllers.UsersController.fetchteamboardData (poc.api) in 29.9643ms
+[2023-06-20 11:01:42.167 +05:30  INF]  Executed endpoint 'poc.api.Controllers.UsersController.fetchteamboardData (poc.api)'
+[2023-06-20 11:01:42.167 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7054/api/Users/teamboarddata - - - 200 - application/json;+charset=utf-8 43.1805ms
+[2023-06-20 11:02:04.214 +05:30  INF]  Request starting HTTP/2 OPTIONS https://localhost:7054/api/Users/teamboarddata - -
+[2023-06-20 11:02:04.214 +05:30  INF]  CORS policy execution successful.
+[2023-06-20 11:02:04.214 +05:30  INF]  Request finished HTTP/2 OPTIONS https://localhost:7054/api/Users/teamboarddata - - - 204 - - 0.7380ms
+[2023-06-20 11:02:04.218 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7054/api/Users/teamboarddata - -
+[2023-06-20 11:02:04.218 +05:30  INF]  CORS policy execution successful.
+[2023-06-20 11:02:04.218 +05:30  INF]  Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+[2023-06-20 11:02:04.218 +05:30  INF]  AuthenticationScheme: Bearer was challenged.
+[2023-06-20 11:02:04.218 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7054/api/Users/teamboarddata - - - 401 0 - 0.7365ms
+[2023-06-20 11:03:10.739 +05:30  INF]  Request starting HTTP/2 OPTIONS https://localhost:7054/api/Users/teamboarddata - -
+[2023-06-20 11:03:10.739 +05:30  INF]  CORS policy execution successful.
+[2023-06-20 11:03:10.740 +05:30  INF]  Request finished HTTP/2 OPTIONS https://localhost:7054/api/Users/teamboarddata - - - 204 - - 0.9835ms
+[2023-06-20 11:03:10.744 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7054/api/Users/teamboarddata - -
+[2023-06-20 11:03:10.744 +05:30  INF]  CORS policy execution successful.
+[2023-06-20 11:03:10.744 +05:30  INF]  Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+[2023-06-20 11:03:10.744 +05:30  INF]  AuthenticationScheme: Bearer was challenged.
+[2023-06-20 11:03:10.744 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7054/api/Users/teamboarddata - - - 401 0 - 0.6382ms
+[2023-06-20 11:03:55.558 +05:30  INF]  Request starting HTTP/2 OPTIONS https://localhost:7054/api/Users/teamboarddata - -
+[2023-06-20 11:03:55.558 +05:30  INF]  CORS policy execution successful.
+[2023-06-20 11:03:55.559 +05:30  INF]  Request finished HTTP/2 OPTIONS https://localhost:7054/api/Users/teamboarddata - - - 204 - - 1.0220ms
+[2023-06-20 11:03:55.569 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7054/api/Users/teamboarddata - -
+[2023-06-20 11:03:55.570 +05:30  INF]  CORS policy execution successful.
+[2023-06-20 11:03:55.570 +05:30  INF]  Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+[2023-06-20 11:03:55.570 +05:30  INF]  AuthenticationScheme: Bearer was challenged.
+[2023-06-20 11:03:55.570 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7054/api/Users/teamboarddata - - - 401 0 - 0.5403ms
+[2023-06-20 11:06:05.805 +05:30  INF]  Request starting HTTP/2 OPTIONS https://localhost:7054/api/Users/teamboarddata - -
+[2023-06-20 11:06:05.806 +05:30  INF]  CORS policy execution successful.
+[2023-06-20 11:06:05.806 +05:30  INF]  Request finished HTTP/2 OPTIONS https://localhost:7054/api/Users/teamboarddata - - - 204 - - 0.8363ms
+[2023-06-20 11:06:05.809 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7054/api/Users/teamboarddata - -
+[2023-06-20 11:06:05.810 +05:30  INF]  CORS policy execution successful.
+[2023-06-20 11:06:05.810 +05:30  INF]  Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+[2023-06-20 11:06:05.810 +05:30  INF]  AuthenticationScheme: Bearer was challenged.
+[2023-06-20 11:06:05.810 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7054/api/Users/teamboarddata - - - 401 0 - 1.0212ms
+[2023-06-20 11:06:11.667 +05:30  INF]  Request starting HTTP/2 OPTIONS https://localhost:7054/api/Users/teamboarddata - -
+[2023-06-20 11:06:11.668 +05:30  INF]  CORS policy execution successful.
+[2023-06-20 11:06:11.668 +05:30  INF]  Request finished HTTP/2 OPTIONS https://localhost:7054/api/Users/teamboarddata - - - 204 - - 0.5172ms
+[2023-06-20 11:06:11.682 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7054/api/Users/teamboarddata - -
+[2023-06-20 11:06:11.682 +05:30  INF]  CORS policy execution successful.
+[2023-06-20 11:06:11.683 +05:30  INF]  Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+[2023-06-20 11:06:11.683 +05:30  INF]  AuthenticationScheme: Bearer was challenged.
+[2023-06-20 11:06:11.683 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7054/api/Users/teamboarddata - - - 401 0 - 0.9418ms
+[2023-06-20 11:06:25.057 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7054/api/Users/login?uname=tu&pwd=string - -
+[2023-06-20 11:06:25.057 +05:30  INF]  CORS policy execution successful.
+[2023-06-20 11:06:25.058 +05:30  INF]  Executing endpoint 'poc.api.Controllers.UsersController.Login (poc.api)'
+[2023-06-20 11:06:25.058 +05:30  INF]  Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] Login(System.String, System.String) on controller poc.api.Controllers.UsersController (poc.api).
+[2023-06-20 11:06:25.058 +05:30  INF]  Application Starts executing...
+[2023-06-20 11:06:25.065 +05:30  INF]  Executed DbCommand (5ms) [Parameters=[@__uname_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[username], [u].[PasswordHash], [u].[PasswordSalt], [u].[role], [u].[teamname]
+FROM [UserData] AS [u]
+WHERE [u].[username] = @__uname_0
+[2023-06-20 11:06:25.066 +05:30  INF]  Executing OkObjectResult, writing value of type 'System.String'.
+[2023-06-20 11:06:25.067 +05:30  INF]  Executed action poc.api.Controllers.UsersController.Login (poc.api) in 8.6952ms
+[2023-06-20 11:06:25.067 +05:30  INF]  Executed endpoint 'poc.api.Controllers.UsersController.Login (poc.api)'
+[2023-06-20 11:06:25.067 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7054/api/Users/login?uname=tu&pwd=string - - - 200 - text/plain;+charset=utf-8 10.5067ms
+[2023-06-20 11:06:29.334 +05:30  INF]  Request starting HTTP/2 OPTIONS https://localhost:7054/api/Users/teamboarddata - -
+[2023-06-20 11:06:29.335 +05:30  INF]  CORS policy execution successful.
+[2023-06-20 11:06:29.335 +05:30  INF]  Request finished HTTP/2 OPTIONS https://localhost:7054/api/Users/teamboarddata - - - 204 - - 1.2380ms
+[2023-06-20 11:06:29.339 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7054/api/Users/teamboarddata - -
+[2023-06-20 11:06:29.339 +05:30  INF]  CORS policy execution successful.
+[2023-06-20 11:06:29.340 +05:30  INF]  Executing endpoint 'poc.api.Controllers.UsersController.fetchteamboardData (poc.api)'
+[2023-06-20 11:06:29.340 +05:30  INF]  Route matched with {action = "fetchteamboardData", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] fetchteamboardData() on controller poc.api.Controllers.UsersController (poc.api).
+[2023-06-20 11:06:29.341 +05:30  INF]  Application Starts executing...
+[2023-06-20 11:06:29.347 +05:30  INF]  Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[strategy1_approvedrate], [t].[strategy1_badrate], [t].[strategy1_population], [t].[strategy2_approvedrate], [t].[strategy2_badrate], [t].[strategy2_population], [t].[strategy3_approvedrate], [t].[strategy3_badrate], [t].[strategy3_population], [t].[teamname], [t].[username]
+FROM [TeamboardData] AS [t]
+[2023-06-20 11:06:29.347 +05:30  INF]  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[poc.api.Models.TeamboardData, poc.api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2023-06-20 11:06:29.348 +05:30  INF]  Executed action poc.api.Controllers.UsersController.fetchteamboardData (poc.api) in 7.6249ms
+[2023-06-20 11:06:29.348 +05:30  INF]  Executed endpoint 'poc.api.Controllers.UsersController.fetchteamboardData (poc.api)'
+[2023-06-20 11:06:29.348 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7054/api/Users/teamboarddata - - - 200 - application/json;+charset=utf-8 9.4550ms
+[2023-06-20 11:06:31.302 +05:30  INF]  Request starting HTTP/2 OPTIONS https://localhost:7054/api/Users/gamedata - -
+[2023-06-20 11:06:31.302 +05:30  INF]  CORS policy execution successful.
+[2023-06-20 11:06:31.303 +05:30  INF]  Request finished HTTP/2 OPTIONS https://localhost:7054/api/Users/gamedata - - - 204 - - 0.7133ms
+[2023-06-20 11:06:31.310 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7054/api/Users/gamedata - -
+[2023-06-20 11:06:31.310 +05:30  INF]  CORS policy execution successful.
+[2023-06-20 11:06:31.311 +05:30  INF]  Executing endpoint 'poc.api.Controllers.UsersController.fetchGameData (poc.api)'
+[2023-06-20 11:06:31.311 +05:30  INF]  Route matched with {action = "fetchGameData", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] fetchGameData() on controller poc.api.Controllers.UsersController (poc.api).
+[2023-06-20 11:06:31.312 +05:30  INF]  Application Starts executing...
+[2023-06-20 11:06:31.317 +05:30  INF]  Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [g].[Approvedrate], [g].[Badrate], [g].[Population]
+FROM [GameData] AS [g]
+[2023-06-20 11:06:31.318 +05:30  INF]  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[poc.api.Models.GameData, poc.api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2023-06-20 11:06:31.318 +05:30  INF]  Executed action poc.api.Controllers.UsersController.fetchGameData (poc.api) in 6.9519ms
+[2023-06-20 11:06:31.318 +05:30  INF]  Executed endpoint 'poc.api.Controllers.UsersController.fetchGameData (poc.api)'
+[2023-06-20 11:06:31.319 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7054/api/Users/gamedata - - - 200 - application/json;+charset=utf-8 9.0706ms
+[2023-06-20 11:06:51.836 +05:30  INF]  Request starting HTTP/2 OPTIONS https://localhost:7054/api/Users/gamedata - -
+[2023-06-20 11:06:51.836 +05:30  INF]  CORS policy execution successful.
+[2023-06-20 11:06:51.837 +05:30  INF]  Request finished HTTP/2 OPTIONS https://localhost:7054/api/Users/gamedata - - - 204 - - 0.7555ms
+[2023-06-20 11:06:51.840 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7054/api/Users/gamedata - -
+[2023-06-20 11:06:51.840 +05:30  INF]  CORS policy execution successful.
+[2023-06-20 11:06:51.840 +05:30  INF]  Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+[2023-06-20 11:06:51.840 +05:30  INF]  AuthenticationScheme: Bearer was challenged.
+[2023-06-20 11:06:51.841 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7054/api/Users/gamedata - - - 401 0 - 0.7098ms
+[2023-06-20 11:07:04.125 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7054/api/Users/login?uname=tu&pwd=string - -
+[2023-06-20 11:07:04.126 +05:30  INF]  CORS policy execution successful.
+[2023-06-20 11:07:04.126 +05:30  INF]  Executing endpoint 'poc.api.Controllers.UsersController.Login (poc.api)'
+[2023-06-20 11:07:04.126 +05:30  INF]  Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] Login(System.String, System.String) on controller poc.api.Controllers.UsersController (poc.api).
+[2023-06-20 11:07:04.127 +05:30  INF]  Application Starts executing...
+[2023-06-20 11:07:04.131 +05:30  INF]  Executed DbCommand (1ms) [Parameters=[@__uname_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[username], [u].[PasswordHash], [u].[PasswordSalt], [u].[role], [u].[teamname]
+FROM [UserData] AS [u]
+WHERE [u].[username] = @__uname_0
+[2023-06-20 11:07:04.133 +05:30  INF]  Executing OkObjectResult, writing value of type 'System.String'.
+[2023-06-20 11:07:04.133 +05:30  INF]  Executed action poc.api.Controllers.UsersController.Login (poc.api) in 6.4918ms
+[2023-06-20 11:07:04.133 +05:30  INF]  Executed endpoint 'poc.api.Controllers.UsersController.Login (poc.api)'
+[2023-06-20 11:07:04.133 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7054/api/Users/login?uname=tu&pwd=string - - - 200 - text/plain;+charset=utf-8 8.0418ms
+[2023-06-20 11:07:08.436 +05:30  INF]  Request starting HTTP/2 OPTIONS https://localhost:7054/api/Users/gamedata - -
+[2023-06-20 11:07:08.436 +05:30  INF]  CORS policy execution successful.
+[2023-06-20 11:07:08.436 +05:30  INF]  Request finished HTTP/2 OPTIONS https://localhost:7054/api/Users/gamedata - - - 204 - - 0.6782ms
+[2023-06-20 11:07:08.439 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7054/api/Users/gamedata - -
+[2023-06-20 11:07:08.439 +05:30  INF]  CORS policy execution successful.
+[2023-06-20 11:07:08.440 +05:30  INF]  Executing endpoint 'poc.api.Controllers.UsersController.fetchGameData (poc.api)'
+[2023-06-20 11:07:08.440 +05:30  INF]  Route matched with {action = "fetchGameData", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] fetchGameData() on controller poc.api.Controllers.UsersController (poc.api).
+[2023-06-20 11:07:08.441 +05:30  INF]  Application Starts executing...
+[2023-06-20 11:07:08.447 +05:30  INF]  Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [g].[Approvedrate], [g].[Badrate], [g].[Population]
+FROM [GameData] AS [g]
+[2023-06-20 11:07:08.448 +05:30  INF]  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[poc.api.Models.GameData, poc.api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2023-06-20 11:07:08.448 +05:30  INF]  Executed action poc.api.Controllers.UsersController.fetchGameData (poc.api) in 7.7238ms
+[2023-06-20 11:07:08.448 +05:30  INF]  Executed endpoint 'poc.api.Controllers.UsersController.fetchGameData (poc.api)'
+[2023-06-20 11:07:08.448 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7054/api/Users/gamedata - - - 200 - application/json;+charset=utf-8 9.4060ms
+[2023-06-20 11:07:10.758 +05:30  INF]  Request starting HTTP/2 OPTIONS https://localhost:7054/api/Users/teamboarddata - -
+[2023-06-20 11:07:10.759 +05:30  INF]  CORS policy execution successful.
+[2023-06-20 11:07:10.759 +05:30  INF]  Request finished HTTP/2 OPTIONS https://localhost:7054/api/Users/teamboarddata - - - 204 - - 0.7246ms
+[2023-06-20 11:07:10.763 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7054/api/Users/teamboarddata - -
+[2023-06-20 11:07:10.763 +05:30  INF]  CORS policy execution successful.
+[2023-06-20 11:07:10.764 +05:30  INF]  Executing endpoint 'poc.api.Controllers.UsersController.fetchteamboardData (poc.api)'
+[2023-06-20 11:07:10.764 +05:30  INF]  Route matched with {action = "fetchteamboardData", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] fetchteamboardData() on controller poc.api.Controllers.UsersController (poc.api).
+[2023-06-20 11:07:10.765 +05:30  INF]  Application Starts executing...
+[2023-06-20 11:07:10.771 +05:30  INF]  Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[strategy1_approvedrate], [t].[strategy1_badrate], [t].[strategy1_population], [t].[strategy2_approvedrate], [t].[strategy2_badrate], [t].[strategy2_population], [t].[strategy3_approvedrate], [t].[strategy3_badrate], [t].[strategy3_population], [t].[teamname], [t].[username]
+FROM [TeamboardData] AS [t]
+[2023-06-20 11:07:10.771 +05:30  INF]  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[poc.api.Models.TeamboardData, poc.api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2023-06-20 11:07:10.772 +05:30  INF]  Executed action poc.api.Controllers.UsersController.fetchteamboardData (poc.api) in 7.0712ms
+[2023-06-20 11:07:10.772 +05:30  INF]  Executed endpoint 'poc.api.Controllers.UsersController.fetchteamboardData (poc.api)'
+[2023-06-20 11:07:10.772 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7054/api/Users/teamboarddata - - - 200 - application/json;+charset=utf-8 9.4533ms
+[2023-06-20 11:11:41.474 +05:30  INF]  Request starting HTTP/2 OPTIONS https://localhost:7054/api/Users/teamboarddata - -
+[2023-06-20 11:11:41.474 +05:30  INF]  CORS policy execution successful.
+[2023-06-20 11:11:41.474 +05:30  INF]  Request finished HTTP/2 OPTIONS https://localhost:7054/api/Users/teamboarddata - - - 204 - - 0.6536ms
+[2023-06-20 11:11:41.477 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7054/api/Users/teamboarddata - -
+[2023-06-20 11:11:41.477 +05:30  INF]  CORS policy execution successful.
+[2023-06-20 11:11:41.478 +05:30  INF]  Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+[2023-06-20 11:11:41.478 +05:30  INF]  AuthenticationScheme: Bearer was challenged.
+[2023-06-20 11:11:41.478 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7054/api/Users/teamboarddata - - - 401 0 - 1.2659ms
+[2023-06-20 11:11:45.021 +05:30  INF]  Request starting HTTP/2 OPTIONS https://localhost:7054/api/Users/gamedata - -
+[2023-06-20 11:11:45.022 +05:30  INF]  CORS policy execution successful.
+[2023-06-20 11:11:45.022 +05:30  INF]  Request finished HTTP/2 OPTIONS https://localhost:7054/api/Users/gamedata - - - 204 - - 0.8465ms
+[2023-06-20 11:11:45.024 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7054/api/Users/gamedata - -
+[2023-06-20 11:11:45.025 +05:30  INF]  CORS policy execution successful.
+[2023-06-20 11:11:45.025 +05:30  INF]  Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+[2023-06-20 11:11:45.025 +05:30  INF]  AuthenticationScheme: Bearer was challenged.
+[2023-06-20 11:11:45.025 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7054/api/Users/gamedata - - - 401 0 - 0.8743ms
+[2023-06-20 11:11:47.057 +05:30  INF]  Request starting HTTP/2 OPTIONS https://localhost:7054/api/Users/teamboarddata - -
+[2023-06-20 11:11:47.058 +05:30  INF]  CORS policy execution successful.
+[2023-06-20 11:11:47.058 +05:30  INF]  Request finished HTTP/2 OPTIONS https://localhost:7054/api/Users/teamboarddata - - - 204 - - 0.6496ms
+[2023-06-20 11:11:47.062 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7054/api/Users/teamboarddata - -
+[2023-06-20 11:11:47.062 +05:30  INF]  CORS policy execution successful.
+[2023-06-20 11:11:47.062 +05:30  INF]  Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+[2023-06-20 11:11:47.062 +05:30  INF]  AuthenticationScheme: Bearer was challenged.
+[2023-06-20 11:11:47.063 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7054/api/Users/teamboarddata - - - 401 0 - 0.8169ms
+[2023-06-20 11:11:58.438 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7054/api/Users/login?uname=tu&pwd=string - -
+[2023-06-20 11:11:58.438 +05:30  INF]  CORS policy execution successful.
+[2023-06-20 11:11:58.438 +05:30  INF]  Executing endpoint 'poc.api.Controllers.UsersController.Login (poc.api)'
+[2023-06-20 11:11:58.440 +05:30  INF]  Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] Login(System.String, System.String) on controller poc.api.Controllers.UsersController (poc.api).
+[2023-06-20 11:11:58.440 +05:30  INF]  Application Starts executing...
+[2023-06-20 11:11:58.449 +05:30  INF]  Executed DbCommand (5ms) [Parameters=[@__uname_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[username], [u].[PasswordHash], [u].[PasswordSalt], [u].[role], [u].[teamname]
+FROM [UserData] AS [u]
+WHERE [u].[username] = @__uname_0
+[2023-06-20 11:11:58.450 +05:30  INF]  Executing OkObjectResult, writing value of type 'System.String'.
+[2023-06-20 11:11:58.451 +05:30  INF]  Executed action poc.api.Controllers.UsersController.Login (poc.api) in 11.0364ms
+[2023-06-20 11:11:58.451 +05:30  INF]  Executed endpoint 'poc.api.Controllers.UsersController.Login (poc.api)'
+[2023-06-20 11:11:58.452 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7054/api/Users/login?uname=tu&pwd=string - - - 200 - text/plain;+charset=utf-8 13.8959ms
+[2023-06-20 11:12:02.442 +05:30  INF]  Request starting HTTP/2 OPTIONS https://localhost:7054/api/Users/gamedata - -
+[2023-06-20 11:12:02.442 +05:30  INF]  CORS policy execution successful.
+[2023-06-20 11:12:02.443 +05:30  INF]  Request finished HTTP/2 OPTIONS https://localhost:7054/api/Users/gamedata - - - 204 - - 0.6386ms
+[2023-06-20 11:12:02.445 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7054/api/Users/gamedata - -
+[2023-06-20 11:12:02.445 +05:30  INF]  CORS policy execution successful.
+[2023-06-20 11:12:02.447 +05:30  INF]  Executing endpoint 'poc.api.Controllers.UsersController.fetchGameData (poc.api)'
+[2023-06-20 11:12:02.447 +05:30  INF]  Route matched with {action = "fetchGameData", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] fetchGameData() on controller poc.api.Controllers.UsersController (poc.api).
+[2023-06-20 11:12:02.447 +05:30  INF]  Application Starts executing...
+[2023-06-20 11:12:02.451 +05:30  INF]  Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [g].[Approvedrate], [g].[Badrate], [g].[Population]
+FROM [GameData] AS [g]
+[2023-06-20 11:12:02.459 +05:30  INF]  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[poc.api.Models.GameData, poc.api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2023-06-20 11:12:02.473 +05:30  INF]  Executed action poc.api.Controllers.UsersController.fetchGameData (poc.api) in 26.5563ms
+[2023-06-20 11:12:02.474 +05:30  INF]  Executed endpoint 'poc.api.Controllers.UsersController.fetchGameData (poc.api)'
+[2023-06-20 11:12:02.474 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7054/api/Users/gamedata - - - 200 - application/json;+charset=utf-8 28.8793ms
+[2023-06-20 11:12:04.220 +05:30  INF]  Request starting HTTP/2 OPTIONS https://localhost:7054/api/Users/teamboarddata - -
+[2023-06-20 11:12:04.220 +05:30  INF]  CORS policy execution successful.
+[2023-06-20 11:12:04.221 +05:30  INF]  Request finished HTTP/2 OPTIONS https://localhost:7054/api/Users/teamboarddata - - - 204 - - 0.7274ms
+[2023-06-20 11:12:04.222 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7054/api/Users/teamboarddata - -
+[2023-06-20 11:12:04.223 +05:30  INF]  CORS policy execution successful.
+[2023-06-20 11:12:04.224 +05:30  INF]  Executing endpoint 'poc.api.Controllers.UsersController.fetchteamboardData (poc.api)'
+[2023-06-20 11:12:04.224 +05:30  INF]  Route matched with {action = "fetchteamboardData", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] fetchteamboardData() on controller poc.api.Controllers.UsersController (poc.api).
+[2023-06-20 11:12:04.224 +05:30  INF]  Application Starts executing...
+[2023-06-20 11:12:04.230 +05:30  INF]  Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[strategy1_approvedrate], [t].[strategy1_badrate], [t].[strategy1_population], [t].[strategy2_approvedrate], [t].[strategy2_badrate], [t].[strategy2_population], [t].[strategy3_approvedrate], [t].[strategy3_badrate], [t].[strategy3_population], [t].[teamname], [t].[username]
+FROM [TeamboardData] AS [t]
+[2023-06-20 11:12:04.231 +05:30  INF]  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[poc.api.Models.TeamboardData, poc.api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2023-06-20 11:12:04.240 +05:30  INF]  Executed action poc.api.Controllers.UsersController.fetchteamboardData (poc.api) in 16.5927ms
+[2023-06-20 11:12:04.241 +05:30  INF]  Executed endpoint 'poc.api.Controllers.UsersController.fetchteamboardData (poc.api)'
+[2023-06-20 11:12:04.241 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7054/api/Users/teamboarddata - - - 200 - application/json;+charset=utf-8 18.4368ms
+[2023-06-20 12:02:02.294 +05:30  INF]  Request starting HTTP/2 OPTIONS https://localhost:7054/api/Users/teamboarddata - -
+[2023-06-20 12:02:02.295 +05:30  INF]  CORS policy execution successful.
+[2023-06-20 12:02:02.295 +05:30  INF]  Request finished HTTP/2 OPTIONS https://localhost:7054/api/Users/teamboarddata - - - 204 - - 0.6447ms
+[2023-06-20 12:02:02.299 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7054/api/Users/teamboarddata - -
+[2023-06-20 12:02:02.299 +05:30  INF]  CORS policy execution successful.
+[2023-06-20 12:02:02.299 +05:30  INF]  Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+[2023-06-20 12:02:02.300 +05:30  INF]  AuthenticationScheme: Bearer was challenged.
+[2023-06-20 12:02:02.300 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7054/api/Users/teamboarddata - - - 401 0 - 1.3435ms
+[2023-06-20 13:03:06.489 +05:30  WRN]  No store type was specified for the decimal property 'Approvedrate' on entity type 'GameData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-20 13:03:06.523 +05:30  WRN]  No store type was specified for the decimal property 'Badrate' on entity type 'GameData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-20 13:03:06.523 +05:30  WRN]  No store type was specified for the decimal property 'strategy1_approvedrate' on entity type 'TeamboardData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-20 13:03:06.523 +05:30  WRN]  No store type was specified for the decimal property 'strategy1_badrate' on entity type 'TeamboardData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-20 13:03:06.523 +05:30  WRN]  No store type was specified for the decimal property 'strategy2_approvedrate' on entity type 'TeamboardData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-20 13:03:06.523 +05:30  WRN]  No store type was specified for the decimal property 'strategy2_badrate' on entity type 'TeamboardData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-20 13:03:06.523 +05:30  WRN]  No store type was specified for the decimal property 'strategy3_approvedrate' on entity type 'TeamboardData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-20 13:03:06.523 +05:30  WRN]  No store type was specified for the decimal property 'strategy3_badrate' on entity type 'TeamboardData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-20 13:03:06.698 +05:30  WRN]  No store type was specified for the decimal property 'Approvedrate' on entity type 'GameData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-20 13:03:06.703 +05:30  WRN]  No store type was specified for the decimal property 'Badrate' on entity type 'GameData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-20 13:03:06.707 +05:30  WRN]  No store type was specified for the decimal property 'strategy1_approvedrate' on entity type 'TeamboardData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-20 13:03:06.709 +05:30  WRN]  No store type was specified for the decimal property 'strategy1_badrate' on entity type 'TeamboardData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-20 13:03:06.712 +05:30  WRN]  No store type was specified for the decimal property 'strategy2_approvedrate' on entity type 'TeamboardData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-20 13:03:06.715 +05:30  WRN]  No store type was specified for the decimal property 'strategy2_badrate' on entity type 'TeamboardData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-20 13:03:06.718 +05:30  WRN]  No store type was specified for the decimal property 'strategy3_approvedrate' on entity type 'TeamboardData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2023-06-20 13:03:06.721 +05:30  WRN]  No store type was specified for the decimal property 'strategy3_badrate' on entity type 'TeamboardData'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.

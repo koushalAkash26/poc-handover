@@ -1,0 +1,53 @@
+<app-dashboard></app-dashboard>
+<br><br>
+<ng-container
+  *ngIf="datas.length>0; then dataPopulated; else dataNone">
+</ng-container>
+<ng-template #dataPopulated>
+  <div class="container">
+    <table class="table table-bordered">
+        <thead class="table-info">
+          <tr>
+            <th scope="col">Strategy</th>
+            <th scope="col">Approved Rate</th>
+            <th scope="col">Bad Rate</th>
+            <th scope="col">Population</th>
+            <th scope="col">select</th>
+          </tr>
+        </thead>
+        <tbody class="table-group-divider">
+          <tr *ngFor="let data of datas;let i=index">
+            <th scope="row">{{i+1}}</th>
+            <td>{{data.approvedrate}}%</td>
+
+            <td>{{data.badrate}}%</td>
+
+            <td>{{data.population}}</td>
+          </tr>
+         
+        
+        </tbody>
+      </table>
+      <br>
+      <br>
+      <button type="button" class="btn btn-outline-info position-relative start-50 translate-middle">Submit For Final</button>
+ </div>
+</ng-template>
+<ng-template #dataNone>
+  <ng-container
+  *ngIf="tokenHeaderContainer==''; then loginPrompt ; else dataNonePrompt">
+</ng-container>
+<ng-template #loginPrompt>
+  <div>
+    <h1 style="text-align: center;">Please Login To View The Data</h1>
+  </div>
+</ng-template>
+<ng-template #dataNonePrompt>
+  <div>
+    <h1 style="text-align: center;">No Current Data to show</h1>
+  </div>
+</ng-template>
+</ng-template>
+
+ 
+

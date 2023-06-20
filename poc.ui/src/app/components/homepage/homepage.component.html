@@ -1,0 +1,32 @@
+<nav class="navbar navbar-expand-lg text-info bg-info">
+    <div class="container-fluid">
+      <a class="navbar-brand" routerLink="/login">CV Gameday</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+         
+          <li class="nav-item">
+            <a class="nav-link"routerLink="/login" routerLinkActive="active">login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/register" routerLinkActive="active">Register</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <h4  style="color:aqua;padding-top: 10px;">welcome  {{welcomeUser}}!</h4>
+          </li>
+      </ul>
+        
+      </div>
+    </div>
+  </nav>
+<br>
+  <div class="btn-group mt-4 position-absolute start-50 translate-middle mt-1" role="group" aria-label="Default button group">
+    <button type="button" class="btn btn-outline-info" routerLink="/dashboard" routerLinkActive="active"> Dashbaord </button>
+    <button type="button" class="btn btn-outline-info" routerLink="/two" routerLinkActive="active"> Understanding the concept of trended data </button>
+    <button type="button" class="btn btn-outline-info"routerLink="/three" routerLinkActive="active"> Apllication of trended data </button>
+    <button type="button" class="btn btn-outline-info"routerLink="/gameboard" routerLinkActive="active"> Game Baord </button>
+  </div>

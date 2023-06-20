@@ -1,0 +1,75 @@
+<app-dashboard></app-dashboard>
+<br><br>
+<ng-container
+  *ngIf="datas.length>0; then dataPopulated; else dataNone">
+</ng-container>
+<ng-template #dataPopulated>
+  <div class="container">
+    <table class="table table-bordered table-responsive">
+        <thead class="table-info">
+            <tr></tr>
+          <tr>
+            <th scope="col">S.No</th>
+            <th scope="col">Username</th>
+            <th scope="col">Team</th>
+            <th scope="col">Strategy1_Approvedrate</th>
+            <th scope="col">Strategy1_Badrate</th>
+            <th scope="col">Strategy1_Population</th>
+            <th scope="col">Strategy2_Approvedrate</th>
+            <th scope="col">Strategy2_Badrate</th>
+            <th scope="col">Strategy2_Population</th>
+            <th scope="col">Strategy3_Approvedrate</th>
+            <th scope="col">Strategy3_Badrate</th>
+            <th scope="col">Strategy3_Population</th>
+            
+          </tr>
+        </thead>
+        
+        <tbody class="table-group-divider">
+          <tr *ngFor="let data of datas;let i=index">
+            <th scope="row">{{i+1}}</th>
+            <td>{{data.username}}</td>
+            <td>{{data.teamname}}</td>
+            <td>{{data.strategy1_approvedrate}}%</td>
+
+            <td>{{data.strategy1_badrate}}%</td>
+
+            <td>{{data.strategy1_population}}</td>
+            <td>{{data.strategy2_approvedrate}}%</td>
+
+            <td>{{data.strategy2_badrate}}%</td>
+
+            <td>{{data.strategy2_population}}</td>
+            <td>{{data.strategy3_approvedrate}}%</td>
+
+            <td>{{data.strategy3_badrate}}%</td>
+
+            <td>{{data.strategy3_population}}</td>
+
+          </tr>
+        
+        </tbody>
+        
+      </table>
+      <br>
+      <br>
+      <button type="button" class="btn btn-outline-info position-relative start-50 translate-middle">Submit For Final</button>
+ </div>
+</ng-template>
+<ng-template #dataNone>
+  <ng-container
+  *ngIf="tokenHeaderContainer==''; then loginPrompt ; else dataNonePrompt">
+</ng-container>
+<ng-template #loginPrompt>
+  <div>
+    <h1 style="text-align: center;">Please Login To View The Data</h1>
+  </div>
+</ng-template>
+<ng-template #dataNonePrompt>
+  <div>
+    <h1 style="text-align: center;">No Current Data to show</h1>
+  </div>
+</ng-template>
+</ng-template>
+
+ 
